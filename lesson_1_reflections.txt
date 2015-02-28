@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Very often bugs are appearing only because of some kind of typos or misprints, so if you have a diff between an old version and a new one, you can easily see the place where this typo was made.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Having access to previous versions of you file(program for example) can save a lot of time if you made some mistakes and want to return everything to a working state quickly rather than just try to fix it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	
+	The pros of automatic saving is that you can't forget to do it, and your time wouldn't be wasted in a case of any troubles. But this is the only advantage of automatic saving. For example if changes are done automatically every hour, your versions may look all unfinished, as system doesn't care if the changes have logical end. Also if you don't do anything it will only store your disk space, which is not good if you pay for it. Doing commits manually gives you  a freedom of making your version logically finished(maybe even vorking) versions of your projects.
+
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ 	The reason is that for Git your files are rather one connected project and they all somehow influence each one. In Google Docs you are usually working with text documents, so they are separated and changes in one aren't likely to have an effect on other files.
+
+ How can you use the commands git log and git diff to view the history of files?
+
+ 	Git log show all the commits, their ids, authors, dates and comments. It is very comfortable to find commit you need. Also git diff compare two commits, so we can see the actual changes between commits. If you only want to see how many lines were changed you can use git log --stat.
+
+ How might using version controll make you more confident make changes that could break your code?
+
+ 	If you're using version controll you can be always sure that your can undo all the changes and return to the previous version of your code. Thus you could experiment and make changes that could break your code and be sure you can return to working code.
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+
+ 	I want to use Git for making all sorts of my programming projects independent from the language I will use: C++, Java, JavaScript, jQuery or even Pascal.
+
+ 
