@@ -6,3 +6,24 @@ How is the staging area different from the working directory and the repository?
 
 	Staging area is just a bunch of files that should be commited together. Working directory contains all the files you have on a local machines. They all can also be commited but actually they doesn't belong to project till you commit them manually. Staging area somehow guarantee that the files in it are the part of your project, not just working experiment. What about repository it is exactly your project with all the files for current version and all the history. Repo is the result of your work, staging area - your plans, working directory - your workshop.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Staging area force you to put only files that need to be commited in it. So if there is one file or bunch of related files you can be sure that you have done one logical change rather than changed the whole project.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches can be helpful if you want to try some kind of new fearure or something like that, but not changing the release project at the same time. After you finish experimenting, you may return to master branch or merge master and your branch if you want.
+
+How do the diagrams help you to visualize the branch structure?
+
+	Diagrams shows all the branches and it helps to see branches that are not visible when you use git log as it only show your current braches. Also diagrams show parent branches and unreacheble branches, which is a very useful feature.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we de?
+
+	The result of merging two branches together is new branch that has the changes of both. This representation gives the best uncerstanding that the merged commit has two parents and that the commits of both of them will leave after merging.
+
+What are pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	
+	The advantage of Git's automatic merging is that, when conflict is trivial, Git will probablu solve it without your help and it will save a lot of time to you. However it is always more reliable to resolving conflicts manually, because Git just compare content, and doesn't care about the semantics.
+
