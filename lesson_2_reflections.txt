@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	When you initialize a repository you create a project on your local machine before commiting it to Git. In such a way you prepare all the files to be uploded to the cloud. You do it to create your files, they can be stored on Githum later, but they can't be created online. That's why you need to have a repo on your PC.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area is just a bunch of files that should be commited together. Working directory contains all the files you have on a local machines. They all can also be commited but actually they doesn't belong to project till you commit them manually. Staging area somehow guarantee that the files in it are the part of your project, not just working experiment. What about repository it is exactly your project with all the files for current version and all the history. Repo is the result of your work, staging area - your plans, working directory - your workshop.
+
